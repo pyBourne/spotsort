@@ -156,3 +156,4 @@ fabric.properties
 
 .idea/
 db.sqlite3
+spotsort/secret_settings.py
