@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Song(models.Model):
-    spotify_id = models.CharField(null=False)
+    spotify_id = models.CharField(null=False, max_length=64   )
     acousticness = models.FloatField()
     analysis_url = models.URLField()
     danceability = models.FloatField()
